@@ -11,7 +11,7 @@ namespace JambApp
         public string Address { get; set; }
         public string Email { get; set; }
         public string NIN { get; set; }
-        public string Gender { get; set; }
+        public string Gender { get; set; } 
         public string State { get; set; }
         public string RegistrationNumber { get; set; }
         public string Institution { get; set; }
