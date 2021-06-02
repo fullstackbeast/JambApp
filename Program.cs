@@ -8,6 +8,8 @@ namespace JambApp
         static void Main(string[] args)
         {
             Menu.MainMenu();
+
+            Console.WriteLine("Testtt");
         }
     }
 }

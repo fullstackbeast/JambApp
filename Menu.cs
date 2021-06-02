@@ -8,6 +8,10 @@ namespace JambApp
 
         public static AspirantManager aspirantManager = new AspirantManager();
 
+        public string Name { get; set; }
+        
+        
+
         public static void ShowMainMenu()
         {
             Console.Clear();

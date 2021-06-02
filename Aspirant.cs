@@ -16,8 +16,9 @@ namespace JambApp
         public string RegistrationNumber { get; set; }
         public string Institution { get; set; }
         public string Course { get; set; }
-        
 
+        public string TestName { get; set; }
+        
         public Aspirant(string firstName, string lastName, DateTime dateOfBirth, string address, string email, string nIN, string gender, string state, string registrationNumber, string institution, string course, string middleName = "")
         {
             FirstName = firstName;
